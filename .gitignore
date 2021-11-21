@@ -1,0 +1,8 @@
+/target/
+/*.idea
+/*.iml
+/*.log
+node_modules
+cypress/videos
+cypress/screenshots
+fixtures
