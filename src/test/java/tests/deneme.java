@@ -25,6 +25,7 @@ public class deneme {
         ReusableMethods.waitForPageToLoad(10);
         ReusableMethods.waitFor(5);
         Assert.assertEquals(homePage.title.getText(), "A/B Test Variation 1"); // validation degisebiliyor
+        
     }
 
     @AfterTest
