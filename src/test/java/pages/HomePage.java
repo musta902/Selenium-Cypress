@@ -18,6 +18,7 @@ public class HomePage {
     @FindBy(xpath = "(//li)[1]/a")
     public WebElement AB_Testing;
 
+
     @FindBy(xpath = "//h3")
     public WebElement title;
     
@@ -38,4 +39,5 @@ public class HomePage {
       ReusableMethods.waitFor(5);
         options.get(sira).click();
     }
+
 }
