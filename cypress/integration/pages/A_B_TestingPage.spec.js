@@ -1,9 +1,6 @@
 
 export function visitPage(){cy.visit(Cypress.config("baseurl"))}
 
-
-
-
 export const titleCSS='#content > div > h3'
 export const descriptionCSS='#content > div > p'
 export const abTestLinkCSS=':nth-child(1) > a'
