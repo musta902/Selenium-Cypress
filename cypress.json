@@ -1,5 +1,11 @@
 {
-    "baseurl":"https://the-internet.herokuapp.com/"
+    "baseurl":"https://the-internet.herokuapp.com/",
+
+        "username" : "admin",
+        "password" :"admin"
+    }  
+   
+
     
-        
-    }
+    
+

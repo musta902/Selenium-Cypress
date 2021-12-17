@@ -11,18 +11,11 @@ describe ('Digest_Auth Testing', ()=>{
        Digest_AuthPage.visitPage()
         
         cy.get(Digest_AuthPage.digest_Auth).click({force:true})
-      
-        Cypress.Commands.add("auth_digest", (username, password, baseUrl, text) =>
-        {
 
-        cy.visit(baseUrl, {
-        auth: {
-        username: username,
-        password: password,
-        },
-        })
-        cy.get('p').should('include.text',"Congratulations! You must have the proper credentials.")
-        })
+        cy.auth_digest(Cypress.config("username"),Cypress.config("password"),Cypress.config("baseUrl"),"Congratulations! You must have the proper credentials.")
+        
+      
+       
 
     })
 
