@@ -15,7 +15,7 @@ public class HomePage {
     @FindBy(xpath = "//h3")
     public WebElement title;
 
-    @FindBy(xpath = "(//li)[8]/a")
+    @FindBy(css =":nth-child(8) > a")
     public WebElement digest_Auth;
 
   
