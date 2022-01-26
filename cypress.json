@@ -1,5 +1,6 @@
 {
     "baseurl":"https://the-internet.herokuapp.com/",
+<<<<<<< HEAD
 
         "username" : "admin",
         "password" :"admin"
@@ -9,3 +10,9 @@
     
     
 
+=======
+    "her_oku": "http://the-internet.herokuapp.com/"
+
+        
+    }
+>>>>>>> master
