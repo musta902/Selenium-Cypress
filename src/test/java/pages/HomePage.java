@@ -11,12 +11,7 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class HomePage {
-<<<<<<< HEAD
     public HomePage () {PageFactory.initElements(utilities.Driver.getDriver(), this);
-=======
-    public HomePage() {
-        PageFactory.initElements(utilities.Driver.getDriver(), this);
->>>>>>> master
     }
 
     @FindBy(xpath = "(//li)[1]/a")
